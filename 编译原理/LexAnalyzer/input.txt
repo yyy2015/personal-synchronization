@@ -1,0 +1,14 @@
+public class Test{
+
+    public int myTest(){
+        int a = 10;
+        int b = 9;
+        if(a>b){
+            a = a-b*3;
+        }else{
+            b = a/b; //no meaning test case
+        }
+
+        return a+b;
+    }
+}
