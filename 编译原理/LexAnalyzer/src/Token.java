@@ -18,7 +18,7 @@ public class Token {
 
     public String myToString(){
         if(this.error == null){
-            return "<"+this.tokenType+","+this.tokenStr+">";
+            return "<"+this.tokenType.toString()+","+this.tokenStr+">";
         }else{
             return "error:"+error;
         }
